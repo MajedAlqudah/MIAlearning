@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?1z9v6x");
+  src: url("../fonts/icomoon/icomoon.eot?1z9v6x#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?1z9v6x") format("truetype"), url("../fonts/icomoon/icomoon.woff?1z9v6x") format("woff"), url("../fonts/icomoon/icomoon.svg?1z9v6x#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.gpa{
+  
+  font-size: 50px;
+  filter: drop-shadow(2px 2px 4px #1C2120);
+}
+.containe {
+  
+  margin: 50px auto;
+  background: linear-gradient(to left top , #5da399 , #63ccca);
+  padding: 20px;
+  
+  border-radius: 8px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  max-width: 200%;
+  width: 70%;
+}
+
+
+.input-section {
+  
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  
+}
+
+.input-section label {
+  display: block;
+  margin-bottom: 5px;
+  
+}
+
+.input-section input[type="number"],
+.input-section input[type="text"] {
+  
+  width: 100%;
+  padding: 8px;
+  
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  
+}
+
+.input-section input[type="number"]:focus,
+.input-section input[type="text"]:focus {
+  outline: none;
+  border-color: #63ccca;
+  box-shadow: 0 0 0 3px #337054;
+  position: relative;
+  
+
+}
+
+.bt {
+  
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #1C2120;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.bt:hover {
+  background-color: #1ABC9C;
+}
+
+@media  (max-width :600px) {
+  .gpa ,.input-section,.containe{
+    font-size:2rem;
+  }
+  .bt{
+    font-size: 1.5rem;
+  }
+}
